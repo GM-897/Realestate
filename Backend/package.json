@@ -10,11 +10,11 @@
     "langchain": "^0.2.2"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "name": "kappa_test2",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "type": "module",
   "keywords": [],
   "author": "",
