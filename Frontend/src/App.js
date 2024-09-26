@@ -41,7 +41,7 @@ function App() {
     };
 
     try {
-      const response = await axios.post('http://localhost:3000/generate-brochure', payload);
+      const response = await axios.post('https://realestate-gold-kappa.vercel.app/generate-brochure', payload);
       setGeneratedText(response.data.text);
     } catch (error) {
       console.error('Error:', error);
@@ -58,7 +58,7 @@ function App() {
     };
 
     try {
-      await axios.post('http://localhost:3000/insert', payload);
+      await axios.post('https://realestate-gold-kappa.vercel.app/insert', payload);
       alert('Data inserted successfully');
     } catch (error) {
       console.error('Error:', error);
@@ -89,7 +89,7 @@ function App() {
     };
 
     try {
-      const response = await axios.post('http://localhost:3000/regenerate', payload);
+      const response = await axios.post('https://realestate-gold-kappa.vercel.app/regenerate', payload);
       setGeneratedText(response.data.text);
     } catch (error) {
       console.error('Error regenerating text:', error);
