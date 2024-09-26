@@ -25,11 +25,6 @@
 //   });
 //Test successful
 
-//Code contributed by-
-//Vansh Kumar
-//github.com/1shkumar
-//vanshkr22@gmail.com
-//vansh.kumar.ug21@nsut.ac.in
 
 import axios from 'axios';
 
@@ -45,7 +40,7 @@ export const generateText = async (prompt) => {
     data: {
       providers: 'openai',
       text: prompt,
-      temperature: 0.2,
+      temperature: 0.2, // greater the value more random will be the generated output next time
       max_tokens: 250,
       fallback_providers: 'cohere',
     },

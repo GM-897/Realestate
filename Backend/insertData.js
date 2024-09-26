@@ -1,8 +1,3 @@
-//Code contributed by-
-//Vansh Kumar
-//github.com/1shkumar
-//vanshkr22@gmail.com
-//vansh.kumar.ug21@nsut.ac.in
 
 import dotenv from 'dotenv';
 import { createClient } from '@supabase/supabase-js';
