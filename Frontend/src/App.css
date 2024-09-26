@@ -1,0 +1,179 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  margin-right: 10px;
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: calc(100% - 24px); /* Adjusted width with padding */
+  box-sizing: border-box; /* Ensure the padding doesn't add to the width */
+}
+
+.generate-button {
+  grid-column: span 2;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px; /* Add margin to the top */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* .output-section {
+  margin-top: 20px;
+  padding: 20px;
+  width:46%;
+  padding-left: 375px;
+  padding-right: 460px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+} */
+
+.output-section {
+  margin-top: 20px;
+  padding: 20px;
+  width: 80%; /* Increase width to 80% */
+  max-width: 800px; /* Optional: Add max-width for better control */
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding-left: 20px; /* Reduce padding */
+  padding-right: 20px; /* Reduce padding */
+}
+
+
+.output-section h2 {
+  margin-bottom: 10px;
+}
+
+textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box; /* Ensure the padding doesn't add to the width */
+}
+
+.regenerate-section select,
+.regenerate-section button {
+  width: auto;
+  display: inline-block;
+}
+
+.form-group {
+  position: relative;
+  display: inline-block;
+}
+
+
+.form-group:hover .dropdown-content {
+  display: block;
+}
+
+
+h1 {
+  margin: 30px auto;
+  text-align: center;
+  color: rgb(75, 2, 2);
+  font-size: 8em;
+  transition: 0.5s;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('hero-bg2.jpg');
+}
+
+h1:hover {
+  text-shadow: 0 1px 0 #0d0100, 0 2px 0 #0d0100,
+      0 3px 0 #0d0100, 0 4px 0 #0d0100,
+      0 5px 0 #0d0100, 0 6px 0 #0d0100,
+      0 7px 0 #0d0100, 0 8px 0 #0d0100,
+      0 9px 0 #0d0100, 0 10px 0 #0d0100,
+      0 11px 0 #0d0100, 0 12px 0 #0d0100,
+      0 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* CSS */
+.button-27 {
+  appearance: none;
+  background-color: #000000;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 30px;
+  outline: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 30%;
+  will-change: transform;
+  margin-top: 10px;
+}
+
+.button-27:disabled {
+  pointer-events: none;
+}
+
+.button-27:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-27:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
